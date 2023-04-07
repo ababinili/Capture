@@ -1,0 +1,92 @@
+body{
+    background-image: url(spider.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.bar{
+    width: 1520px;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    
+   
+}
+.comics{
+    width: 120px;
+    height:40px ;
+    border: 2px solid white;
+    margin-top: 15px ;
+    margin-left: 20px;
+    border-radius:20px;
+    text-decoration: none;
+    background-color: aqua;
+
+}
+.nav{
+    margin-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+.contact{
+    opacity: 0.5;
+    margin-top: 20px;
+    width: 90px;
+    height: 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    
+
+}
+.purchase{
+    width:80px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.contener{
+    width: 700px;
+    height: 600px;
+    /* border: 2px solid white; */
+    margin: 20px auto;
+    flex-direction: column;
+
+
+}
+h1{
+    color: aliceblue;
+    margin:100px;
+
+   
+}
+hr{
+    color: grey;
+}
+
+.custom{
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.CK{
+    position: relative;
+    left: 50px;
+}
+.easy{
+    position: relative;
+    left: 100px;
+}
+.lots{
+    position: relative;
+    left: 180px;
+}
+button{
+    width: 90px;
+    height: 40px;
+    font-size: 15px;
+    margin-left: 300px;
+    border-radius: 10px;
+}
